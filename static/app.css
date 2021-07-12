@@ -1,0 +1,36 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* h3 {
+    display: inline;
+} */
+
+.board {
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 200%;
+  }
+
+  .board td {
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid black;
+  }
+
+  .msg {
+    padding: 1em;
+  }
+  
+  .msg.ok {
+    color: white;
+    background-color: green;
+  }
+  
+  .msg.err {
+    color: white;
+    background-color: red;
+  }
+  
+  
